@@ -1,6 +1,6 @@
 #include "Referee.h"
 
- Player* Referee :: refereeGame(Player* Player_1, Player* Player_2) {
+ Player* Referee :: refGame(Player* Player_1, Player* Player_2) {
     char move1 = Player_1->makeMove();
     char move2 = Player_2->makeMove();
     if (move1 == move2)

@@ -5,7 +5,7 @@
 class Referee {
 public:
     Referee (){};
-    Player* refereeGame(Player* Player_1, Player* Player_2);
+    Player* refGame(Player* Player_1, Player* Player_2);
 };
 
 #endif

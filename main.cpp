@@ -9,7 +9,7 @@ Human human("Mei");
 Computer computer;
 Referee referee;
 
-Player* winner = referee.refereeGame(&human, &computer);
+Player* winner = referee.refGame(&human, &computer);
 
 if (winner == nullptr) {
     std::cout << "It's a Tie" << std::endl;

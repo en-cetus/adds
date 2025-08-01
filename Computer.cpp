@@ -1,11 +1,10 @@
 #include "Computer.h"
 using namespace std;
 
-char computer::makeMove() {
+char Computer::makeMove() {
     return 'R';
-
 };
 
-string computer:: getName(){
+string Computer::getName(){
     return "Computer";
 };

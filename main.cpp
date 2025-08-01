@@ -6,10 +6,10 @@
 
 int main(){
 Human human("Mei");
-computer Computer;
+Computer computer;
 Referee referee;
 
-player* winner = referee.refereeGame(&human, &Computer);
+Player* winner = referee.refereeGame(&human, &computer);
 
 if (winner == nullptr) {
     std::cout << "It's a Tie" << std::endl;

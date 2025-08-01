@@ -4,11 +4,11 @@
 #include<string>
 
 
-class player {
+class Player {
 public:
     virtual char makeMove( ) = 0;
     virtual std::string getName( ) = 0;
-    ~player () = default;
+    ~Player () = default;
 };
 
 

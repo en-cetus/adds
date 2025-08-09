@@ -47,7 +47,7 @@ Move* Human::makeMove(){
         Paper* paper;
         move = paper;
     }else{
-		cout << 'invalid input' << endl;
+		cout << "invalid input" << endl;
 	}
 	return move;
 	

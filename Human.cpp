@@ -16,6 +16,12 @@ using namespace std;
 Human::Human(){
 };
 
+Human::Human(std::string name) : name(name) {}
+
+string Human::getName(){
+    return name;
+};
+
 Move* Human::makeMove(){
 	string input;
     Move* move = nullptr;

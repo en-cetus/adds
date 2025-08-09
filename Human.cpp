@@ -16,7 +16,7 @@ using namespace std;
 Human::Human(){
 };
 
-Human::Human(std::string name) : name(name) {}
+//Human::Human(std::string name) : name(name) {}
 
 string Human::getName(){
     return name;

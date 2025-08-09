@@ -5,5 +5,5 @@
 using namespace std;
 
 Scissor::Scissor(){
-    name = "Scissor";
+    name = "Scissors";
 };

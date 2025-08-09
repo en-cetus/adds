@@ -19,7 +19,7 @@ Human::Human(){
 Human::Human(std::string name) : name(name) {}
 
 string Human::getName(){
-    return "Human";
+    return name;
 };
 
 Move* Human::makeMove(){

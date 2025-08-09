@@ -4,7 +4,7 @@
 
 class Human : public Player{
 private:
-    std::string name;
+    std::string name = "Human";
 public:
     Human();
     //Human(std::string Name = "Human");

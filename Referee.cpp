@@ -29,8 +29,8 @@ Player* Referee::refGame(Player*a, Player *b){
                (a_name.compare("Zombie") == 0 && (b_name.compare("Ninja") || b_name.compare("Robot"))) )
                {
 				return a;
-	}else if( (a_name == "Rock" && b_name == "Scissor") ||
-               (a_name == "Scissor" && b_name == "Paper") ||
+	}else if( (a_name == "Rock" && b_name == "Scissors") ||
+               (a_name == "Scissors" && b_name == "Paper") ||
                (a_name == "Paper" && b_name == "Rock")) 
                {
                 return a;

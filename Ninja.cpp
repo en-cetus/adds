@@ -6,5 +6,5 @@
 using namespace std;
 
 Ninja::Ninja(){
-    string name = "Ninja";
+    name = "Ninja";
 };

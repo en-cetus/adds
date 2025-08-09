@@ -3,7 +3,7 @@
 using namespace std;
 
 Move* Computer::makeMove() {
-    Rock* rock;
+    Rock* rock = new Rock(); ;
     return rock;
 };
 

@@ -25,7 +25,7 @@ string Human::getName(){
 Move* Human::makeMove(){
 	string input;
     Move* move = nullptr;
-    //cout << "Enter Move: ";
+
     cin >> input;
 
     if (input == "Robot") {
@@ -45,7 +45,6 @@ Move* Human::makeMove(){
     } else if (input == "Paper") {
         move = new Paper();
     } else {
-        //cout << "invalid input" << endl;
         move = nullptr;
     }
 

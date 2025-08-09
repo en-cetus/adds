@@ -17,12 +17,10 @@ Player* Referee::refGame(Player*a, Player *b){
 	move_b = b->makeMove();
 	a_name = move_a->getName();
 	b_name = move_b->getName();
-	//cout << a->getName() << " has move: " << a_name << endl;
-	//cout << b->getName() << " has move: " << b_name << endl;
 
 
 	if (a_name.compare(b_name) == 0){
-		return nullptr;
+		return b;
 	}else if((a_name.compare("Monkey") == 0 && (b_name.compare("Robot") || b_name.compare("Zombie"))) ||
                (a_name.compare("Robot") == 0 && (b_name.compare("Pirate") || b_name.compare("Ninja"))) ||
                (a_name.compare("Pirate") == 0 && (b_name.compare("Zombie") || b_name.compare("Monkey"))) ||

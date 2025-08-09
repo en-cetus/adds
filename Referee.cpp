@@ -20,8 +20,7 @@ Player* Referee::refGame(Player*a, Player *b){
 
 
 	if (a_name.compare(b_name) == 0){
-        std::cout << "Tie ";
-		return b;
+		return nullptr;
 	}else if((a_name.compare("Monkey") == 0 && (b_name.compare("Robot") || b_name.compare("Zombie"))) ||
                (a_name.compare("Robot") == 0 && (b_name.compare("Pirate") || b_name.compare("Ninja"))) ||
                (a_name.compare("Pirate") == 0 && (b_name.compare("Zombie") || b_name.compare("Monkey"))) ||

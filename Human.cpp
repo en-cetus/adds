@@ -25,7 +25,7 @@ string Human::getName(){
 Move* Human::makeMove(){
 	string input;
     Move* move = nullptr;
-    cout << "Enter Move: ";
+    //cout << "Enter Move: ";
     cin >> input;
 
     if (input == "Robot") {

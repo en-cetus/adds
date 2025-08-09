@@ -18,37 +18,31 @@ Human::Human(){
 
 Move* Human::makeMove(){
 	string input;
-	Move* move;
-	cout<<"Enter Move: ";
-	cin >> input;
+    Move* move = nullptr;
+    cout << "Enter Move: ";
+    cin >> input;
 
-	if(input =="Robot"){
-		Robot* robot;
-		move = robot;
-	}else if (input == "Ninja"){
-		Ninja* ninja;
-		move = ninja;
-	}else if (input == "Monkey"){
-		Monkey* monkey;
-		move = monkey;
-	}else if (input == "Pirate"){
-		Pirate* pirate;
-		move = pirate;
-	}else if (input == "Zombie"){
-		Zombie* zombie;
-		move = zombie;
-	}else if(input == "Scissor"){
-        Scissor* scissor;
-        move = scissor;
-    }else if(input == "Rock"){
-        Rock* Rock;
-        move = Rock;
-    }else if(input == "Paper"){
-        Paper* paper;
-        move = paper;
-    }else{
-		cout << "invalid input" << endl;
-	}
-	return move;
+    if (input == "Robot") {
+        move = new Robot();
+    } else if (input == "Ninja") {
+        move = new Ninja();
+    } else if (input == "Monkey") {
+        move = new Monkey();
+    } else if (input == "Pirate") {
+        move = new Pirate();
+    } else if (input == "Zombie") {
+        move = new Zombie();
+    } else if (input == "Scissor") {
+        move = new Scissor();
+    } else if (input == "Rock") {
+        move = new Rock();
+    } else if (input == "Paper") {
+        move = new Paper();
+    } else {
+        cout << "invalid input" << endl;
+        move = nullptr;
+    }
+
+    return move;
 	
 }

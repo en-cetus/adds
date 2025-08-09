@@ -38,7 +38,7 @@ Move* Human::makeMove(){
         move = new Pirate();
     } else if (input == "Zombie") {
         move = new Zombie();
-    } else if (input == "Scissor") {
+    } else if (input == "Scissors") {
         move = new Scissor();
     } else if (input == "Rock") {
         move = new Rock();

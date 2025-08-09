@@ -17,8 +17,8 @@ Player* Referee::refGame(Player*a, Player *b){
 	move_b = b->makeMove();
 	a_name = move_a->getName();
 	b_name = move_b->getName();
-	cout << a->getName() << " has move: " << a_name << endl;
-	cout << b->getName() << " has move: " << b_name << endl;
+	//cout << a->getName() << " has move: " << a_name << endl;
+	//cout << b->getName() << " has move: " << b_name << endl;
 
 
 	if (a_name.compare(b_name) == 0){

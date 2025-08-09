@@ -7,8 +7,8 @@ private:
     std::string name;
 public:
     Human();
-    Human(std::string Name = "Human");
-    //Human(std::string name);
+    //Human(std::string Name = "Human");
+    Human(std::string name);
     Move* makeMove() override;
     std::string getName( ) override;
 };

@@ -45,7 +45,7 @@ Move* Human::makeMove(){
     } else if (input == "Paper") {
         move = new Paper();
     } else {
-        cout << "invalid input" << endl;
+        //cout << "invalid input" << endl;
         move = nullptr;
     }
 
